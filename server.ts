@@ -280,6 +280,9 @@ app.post("/api/leaderboard", (req: express.Request, res: express.Response) => {
 
 // Fallback: send index.html for any other routes to allow SPA routing
 app.get("*", (req: express.Request, res: express.Response) => {
+  if (req.path.includes(".") || req.path.startsWith("/api/")) {
+    return res.status(404).send("Not Found");
+  }
   res.sendFile(path.join(__dirname, "www.spx6900.com", "index.html"));
 });
 

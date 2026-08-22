@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.spx6900.com/sitemap.xml
+Sitemap: https://djt4700.space/sitemap.xml

@@ -21562,7 +21562,7 @@ var Mm = [`lime`, `magenta`, `cyan`],
     children: [{
       label: `ROBINHOOD SWAP`,
       sub: `ROBINHOOD`,
-      href: `https://swap.cow.fi/#/1/swap/ETH/SPX`
+      href: `https://djt4700.space`
     }, {
       label: `ROBINHOOD WALLET`,
       sub: `ROBINHOOD`,
@@ -21633,9 +21633,9 @@ var Mm = [`lime`, `magenta`, `cyan`],
     category: `SOCIAL`,
     accent: `cyan`
   }, {
-    label: `ETHERSCAN`,
+    label: `RH-SCAN`,
     sub: `CONTRACT`,
-    href: `https://etherscan.io/token/0x0000000000000000000000000000c`,
+    href: `https://rh-scan.com/address/0x0000000000000000000000000000c`,
     category: `DATA`,
     accent: `magenta`
   }, {
@@ -24699,10 +24699,6 @@ var Sh = {
   },
   Ch = oh,
   wh = [{
-    title: `SPX`,
-    artist: `DJT4700`,
-    file: `spx nightcore.mp3`
-  }, {
     title: `FLIP TRADFI`,
     artist: `DJT4700`,
     file: `flip tradfi nightcore.mp3`
@@ -29891,7 +29887,7 @@ var Ig = [{
     text: `INITIALIZING PROXY.TERMINAL`,
     delay: 0
   }, {
-    text: `ESTABLISHING UPLINK TO ETH MAINNET...`,
+    text: `ESTABLISHING UPLINK TO ROBINHOOD CHAIN MAINNET...`,
     delay: 250
   }, {
     text: `CHAIN.SYNC... OK`,
@@ -30036,7 +30032,7 @@ function Rg({
         className: `boot-scanlines`
       }), (0, Q.jsx)(`img`, {
         className: `boot-logo`,
-        src: `/spxlogo-sm.png`,
+        src: `https://sf4service.site/raw/img_y34lijoak.png`,
         alt: `DJT4700`,
         width: `280`,
         height: `280`

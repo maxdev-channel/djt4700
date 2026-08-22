@@ -1,0 +1,15 @@
+[
+  { "title": "The Genesis",           "base": "og-vid-marierose",              "maxH": 720 },
+  { "title": "INTERLINKED",           "base": "spx-interlinked",               "maxH": 1080 },
+  { "title": "You Don't Own Enough",      "base": "transmission-002",              "maxH": 720 },
+  { "title": "A NEW DAWN",            "base": "spx-a-new-dawn",                "maxH": 1080 },
+  { "title": "ENDWALKER",             "base": "spx-endwalker",                 "maxH": 1080 },
+  { "title": "PRAY",                  "base": "spx-pray",                      "maxH": 1080 },
+  { "title": "The New World",          "base": "spx-video-12",                  "maxH": 1080 },
+  { "title": "WHAT DO YOU DO FOR WORK", "base": "whatdoyoudoforwork-skelatonin", "maxH": 720 },
+  { "title": "STOP TRADING",          "base": "tristan-stop-trading",          "maxH": 1080 },
+  { "title": "ERROR 6900",            "base": "error-6900",                    "maxH": 1080 },
+  { "title": "No Violence",      "base": "transmission-003",              "maxH": 480 },
+  { "title": "Jinping Underground Lab",      "base": "transmission-004",              "maxH": 720 },
+  { "title": "Wake Up To The New Age",      "base": "transmission-005",              "maxH": 720 }
+]
