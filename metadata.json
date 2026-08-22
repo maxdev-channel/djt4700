@@ -1,6 +1,6 @@
 {
   "name": "DJT4700 Website",
-  "description": "The official-style DJT4700 interactive portal. Features Lumina the AI VTuber, Project Aeon terminal, drawing board, and stock flipping games.",
+  "description": "DJT4700 flips $DJT by mashing Trump meta with SPX market memes into a movement play. It pulls from Donald J. Trump's media group (TMTG/DJT ticker) and SPX-style index hype, using flag aesthetics and the 4700 nod to chase political crypto pumps on robinhood as a rival token. Tg: https://t.me/DJT4700RH X: https://x.com/djt4700rh",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

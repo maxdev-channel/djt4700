@@ -19139,7 +19139,7 @@ function sm() {
 var cm = [`lime`, `magenta`, `cyan`],
   lm = [{
     chain: `DJT4700`,
-    address: `0x00000000000000000000000000`
+    address: `0x40a6031d050901e71935cf77354b50866f411729`
   }],
   um = [{
     label: `MISSION`,
@@ -19149,7 +19149,7 @@ var cm = [`lime`, `magenta`, `cyan`],
   }, {
     label: `CHAINS`,
     value: `CONTRACT ADDRESSES`,
-    detail: `DJT4700: 0x00000000000000000000000000`,
+    detail: `DJT4700: 0x40a6031d050901e71935cf77354b50866f411729`,
     expandable: !0
   }, {
     label: `LAUNCH`,
@@ -19670,8 +19670,53 @@ function dm() {
       children: [(0, Q.jsx)(`div`, {
         className: `ab-desc-tag`,
         children: `[ INTEL.BRIEF ]`
-      }), (0, Q.jsx)(`p`, {
-        children: `DJT4700 flips $DJT by mashing Trump meta with SPX market memes into a movement play. It pulls from Donald J. Trump's media group (TMTG/DJT ticker) and SPX-style index hype, using flag aesthetics and the 4700 nod to chase political crypto pumps on robinhood as a rival token.`
+      }), (0, Q.jsxs)(`p`, {
+        style: {
+          marginBottom: `10px`
+        },
+        children: [(0, Q.jsx)(`strong`, {
+          children: `DJT4700`
+        }), ` flips `, (0, Q.jsx)(`strong`, {
+          children: `$DJT`
+        }), ` by mashing Trump meta with SPX market memes into a movement play.`]
+      }), (0, Q.jsxs)(`p`, {
+        style: {
+          marginBottom: `12px`
+        },
+        children: [`It pulls from Donald J. Trump's media group (TMTG/DJT ticker) and SPX-style index hype, using flag aesthetics and the `, (0, Q.jsx)(`strong`, {
+          children: `4700`
+        }), ` nod to chase political crypto pumps on robinhood as a rival token.`]
+      }), (0, Q.jsxs)(`div`, {
+        style: {
+          display: `flex`,
+          flexDirection: `column`,
+          gap: `6px`,
+          fontSize: `11px`,
+          letterSpacing: `0.5px`
+        },
+        children: [(0, Q.jsxs)(`div`, {
+          children: [`Tg: `, (0, Q.jsx)(`a`, {
+            href: `https://t.me/DJT4700RH`,
+            target: `_blank`,
+            rel: `noopener noreferrer`,
+            style: {
+              color: `#00ffd5`,
+              textDecoration: `underline`
+            },
+            children: `https://t.me/DJT4700RH`
+          })]
+        }), (0, Q.jsxs)(`div`, {
+          children: [`X: `, (0, Q.jsx)(`a`, {
+            href: `https://x.com/djt4700rh`,
+            target: `_blank`,
+            rel: `noopener noreferrer`,
+            style: {
+              color: `#39ff14`,
+              textDecoration: `underline`
+            },
+            children: `https://x.com/djt4700rh`
+          })]
+        })]
       })]
     }), (0, Q.jsx)(`div`, {
       className: `ab-grid`,
@@ -19761,38 +19806,16 @@ function dm() {
           className: `ab-row-expand`,
           children: [(0, Q.jsxs)(`p`, {
             className: `ab-expand-text`,
-            children: [`The `, (0, Q.jsx)(`strong`, {
-              children: `traditional stock market is DEAD`
-            }), `.`]
-          }), (0, Q.jsxs)(`p`, {
-            className: `ab-expand-text`,
-            children: [`According to TardFi Quantitative Analysis, long-term investors should look to DCA into the cute girl's `, (0, Q.jsx)(`strong`, {
-              children: `DJT4700`
-            }), ` — the stock market cryptography blockchain token coin.`]
-          }), (0, Q.jsxs)(`p`, {
-            className: `ab-expand-text`,
-            children: [`A team of top 100 quantum computing mathematicians from`, ` `, (0, Q.jsx)(`strong`, {
-              children: `China Jinping Underground Laboratory`
-            }), ` have made a revanchist breakthrough in technological blockchain history, by managing to fit the entire stock market into auto-healing tiny cryptographic internet coins using`, ` `, (0, Q.jsx)(`strong`, {
-              children: `Robinhood Chain Science Technologies`
-            }), `.`]
-          }), (0, Q.jsxs)(`p`, {
-            className: `ab-expand-text`,
-            children: [`With every blockchain token coin being carefully handmade by the China Jinping Underground Laboratory team, rigorous quality control ensures the utmost `, (0, Q.jsx)(`strong`, {
-              children: `electroplasticity`
-            }), ` and`, ` `, (0, Q.jsx)(`strong`, {
-              children: `astromagnetism`
-            }), ` of each token coin.`]
-          }), (0, Q.jsxs)(`p`, {
-            className: `ab-expand-text`,
             children: [(0, Q.jsx)(`strong`, {
-              children: `$69 trillion marketcap`
-            }), ` or roundtrip after we surpass the 500s, and eventually the entire stock market. The risk averse are rejected by Agent DJT4700 at Cognisphere's Gate, we march with full conviction.`]
+              children: `DJT4700`
+            }), ` flips `, (0, Q.jsx)(`strong`, {
+              children: `$DJT`
+            }), ` by mashing Trump meta with SPX market memes into a movement play.`]
           }), (0, Q.jsxs)(`p`, {
             className: `ab-expand-text`,
-            children: [`The thesis? `, (0, Q.jsx)(`strong`, {
-              children: `Girl is cute.`
-            })]
+            children: [`It pulls from Donald J. Trump's media group (TMTG/DJT ticker) and SPX-style index hype, using flag aesthetics and the `, (0, Q.jsx)(`strong`, {
+              children: `4700`
+            }), ` nod to chase political crypto pumps on robinhood as a rival token.`]
           })]
         })]
       }, t.label))
@@ -21538,14 +21561,14 @@ function jm({
     children: r ? (0, Q.jsxs)(Q.Fragment, {
       children: [(0, Q.jsx)(`img`, {
         className: `ln-portrait-shadow-inner`,
-        src: `/lumina-chat/${a}.webp`,
+        src: `/spxlogo-sm.png`,
         alt: ``,
         "aria-hidden": `true`,
         style: c
       }), (0, Q.jsx)(`img`, {
         className: `ln-portrait-img`,
-        src: `/lumina-chat/${a}.webp`,
-        alt: `Agent DJT4700 ${a}`,
+        src: `/spxlogo-sm.png`,
+        alt: `Agent DJT4700`,
         onError: () => i(!1),
         style: s
       })]
@@ -21553,7 +21576,7 @@ function jm({
       className: `ln-portrait-placeholder`,
       children: [(0, Q.jsx)(`div`, {
         className: `ln-portrait-text`,
-        children: `LUMI`
+        children: `DJT4700`
       }), (0, Q.jsx)(`div`, {
         className: `ln-portrait-sub`,
         children: `// PORTRAIT.PENDING`
@@ -21563,6 +21586,13 @@ function jm({
 }
 var Mm = [`lime`, `magenta`, `cyan`],
   Nm = [{
+    label: `LIVE CHART`,
+    sub: `DEXSCREENER CHART`,
+    category: `CHART`,
+    accent: `cyan`,
+    expandable: !0,
+    isChart: !0
+  }, {
     label: `SWAP TO DJT4700`,
     sub: `DEX AGGREGATORS`,
     category: `SWAP`,
@@ -21575,7 +21605,7 @@ var Mm = [`lime`, `magenta`, `cyan`],
     }, {
       label: `ROBINHOOD WALLET`,
       sub: `ROBINHOOD`,
-      href: `https://app.uniswap.org/swap?outputCurrency=0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c`
+      href: `https://app.uniswap.org/swap?outputCurrency=0x40a6031d050901e71935cf77354b50866f411729`
     }, {
       label: `JUPITER`,
       sub: `SOLANA`,
@@ -21625,14 +21655,14 @@ var Mm = [`lime`, `magenta`, `cyan`],
     accent: `magenta`
   }, {
     label: `TELEGRAM`,
-    sub: `COMMUNITY PORTAL`,
-    href: `https://t.me/`,
+    sub: `t.me/DJT4700RH`,
+    href: `https://t.me/DJT4700RH`,
     category: `SOCIAL`,
     accent: `cyan`
   }, {
     label: `X`,
-    sub: `@DJT4700`,
-    href: `https://x.com/`,
+    sub: `@djt4700rh`,
+    href: `https://x.com/djt4700rh`,
     category: `SOCIAL`,
     accent: `lime`
   }, {
@@ -21644,13 +21674,13 @@ var Mm = [`lime`, `magenta`, `cyan`],
   }, {
     label: `RH-SCAN`,
     sub: `CONTRACT`,
-    href: `https://rh-scan.com/address/0x0000000000000000000000000000c`,
+    href: `https://rh-scan.com/address/0x40a6031d050901e71935cf77354b50866f411729`,
     category: `DATA`,
     accent: `magenta`
   }, {
     label: `BUBBLEMAPS`,
     sub: `DISTRIBUTION`,
-    href: `https://v2.bubblemaps.io/map?address=0x000000000000000000000000&chain=eth`,
+    href: `https://v2.bubblemaps.io/map?address=0x40a6031d050901e71935cf77354b50866f411729&chain=eth`,
     category: `DATA`,
     accent: `cyan`
   }];
@@ -21739,6 +21769,8 @@ function Pm() {
           position: absolute; top: 50%; left: 50%;
           transform: translate(-50%, -50%);
           width: min(calc(var(--ui) * 1128px), 88vw);
+          max-height: 80vh;
+          overflow-y: auto;
           display: flex; flex-direction: column; gap: calc(var(--uix) * 12px);
           z-index: 4;
           padding: calc(var(--uix) * 6px);
@@ -22079,13 +22111,27 @@ function Pm() {
               className: `lk-toggle`,
               "aria-hidden": `true`
             })]
-          }), (0, Q.jsx)(`div`, {
+          }), (0, Q.jsx)("div", {
             className: `lk-children`,
             style: {
-              maxHeight: c ? `420px` : `0`,
-              padding: c ? `12px` : `0 12px`
+              maxHeight: c ? (r.isChart ? `640px` : `420px`) : `0`,
+              padding: c ? `12px` : `0 12px`,
+              overflowY: r.isChart ? `auto` : `hidden`
             },
-            children: r.children.map((e, n) => (0, Q.jsxs)(`a`, {
+            children: r.isChart ? (0, Q.jsxs)(Q.Fragment, {
+              children: [(0, Q.jsx)("style", {
+                children: `
+                  #dexscreener-embed{position:relative;width:100%;padding-bottom:125%;}@media(min-width:1400px){#dexscreener-embed{padding-bottom:65%;}}#dexscreener-embed iframe{position:absolute;width:100%;height:100%;top:0;left:0;border:0;}
+                `
+              }), (0, Q.jsx)("div", {
+                id: "dexscreener-embed",
+                children: (0, Q.jsx)("iframe", {
+                  src: "https://dexscreener.com/robinhood/0x084104e32e8a219221c828d13592fd3af895086ae1893ac81d59183f5f66265d?embed=1&loadChartSettings=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=0&chartType=usd&interval=15",
+                  title: "Dexscreener Chart",
+                  allowFullScreen: !0
+                })
+              })]
+            }) : r.children.map((e, n) => (0, Q.jsxs)(`a`, {
               href: e.href,
               target: `_blank`,
               rel: `noopener noreferrer`,
