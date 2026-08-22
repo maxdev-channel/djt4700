@@ -7,10 +7,10 @@
 }
 
 :root {
-    --spx-lime: #e5ff1a;
-    --spx-yellow: #ffe500;
-    --spx-magenta: #ff1a66;
-    --spx-cyan: #00e5ff;
+    --spx-lime: #c2ff00;
+    --spx-yellow: #e5ff00;
+    --spx-magenta: #00e53c;
+    --spx-cyan: #00e58f;
     --spx-black: #0a0a0a;
     --spx-dark: #141414;
     --spx-white: #fff;
@@ -53,9 +53,9 @@ img {
 }
 
 :root {
-    --c-lime: #e5ff1a;
-    --c-magenta: #ff1a66;
-    --c-cyan: #00e5ff;
+    --c-lime: #c2ff00;
+    --c-magenta: #00e53c;
+    --c-cyan: #00e58f;
     --ui: 1;
     --ink: #0a0a0a;
     --ink-rgb: 10, 10, 10;
@@ -68,9 +68,9 @@ img {
 }
 
 :root[data-theme=pastel] {
-    --c-lime: #efe770;
-    --c-magenta: #f4a6c8;
-    --c-cyan: #a4e5de
+    --c-lime: #d4ef70;
+    --c-magenta: #a2f4a6;
+    --c-cyan: #a4e5be
 }
 
 :root.theme-switching,

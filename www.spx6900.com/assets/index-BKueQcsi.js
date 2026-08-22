@@ -24652,9 +24652,9 @@ function hh() {
   } catch {}
   return ph
 }
-var gh = `#00E5FF`,
-  _h = `#FF1A66`,
-  vh = `#E5FF1A`,
+var gh = `#00E58F`,
+  _h = `#00E53C`,
+  vh = `#C2FF00`,
   yh = `#ff2d2d`,
   bh = [`lime`, `magenta`, `cyan`];
 
@@ -28437,8 +28437,8 @@ function tg(e, t, n, r, i) {
   }
   e.restore()
 }
-var ng = `#FF1A66`,
-  rg = `#00E5FF`,
+var ng = `#00E53C`,
+  rg = `#00E58F`,
   ig = `#ff2d2d`;
 
 function ag({
@@ -30478,9 +30478,9 @@ function qg() {
     let t = e.getContext(`2d`),
       n = 0,
       r = 0,
-      i = `#E5FF1A`,
-      a = `#FF1A66`,
-      o = `#00E5FF`,
+      i = `#C2FF00`,
+      a = `#00E53C`,
+      o = `#00E58F`,
       s = () => {
         let e = getComputedStyle(document.documentElement);
         i = e.getPropertyValue(`--c-lime`).trim() || i, a = e.getPropertyValue(`--c-magenta`).trim() || a, o = e.getPropertyValue(`--c-cyan`).trim() || o
