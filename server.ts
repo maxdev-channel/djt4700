@@ -44,14 +44,14 @@ function getBoard(song: string, difficulty: string) {
       top: [
         { name: "Satoshi_69", score: 98200, accuracy: 98.2, maxCombo: 340, hits: 340, misses: 0, date: new Date(Date.now() - 86400000 * 2).toISOString() },
         { name: "StockFlipper", score: 85400, accuracy: 92.5, maxCombo: 280, hits: 310, misses: 10, date: new Date(Date.now() - 86400000).toISOString() },
-        { name: "LuminaFan", score: 72100, accuracy: 88.0, maxCombo: 210, hits: 270, misses: 25, date: new Date(Date.now() - 3600000).toISOString() }
+        { name: "DJT4700Fan", score: 72100, accuracy: 88.0, maxCombo: 210, hits: 270, misses: 25, date: new Date(Date.now() - 3600000).toISOString() }
       ]
     };
   }
   return leaderboardStore[key];
 }
 
-// POST /api/chat - Lumina Chat Bot and Emotion Classifier
+// POST /api/chat - DJT4700 Chat Bot and Emotion Classifier
 app.post("/api/chat", async (req: express.Request, res: express.Response) => {
   const { message, history, classify } = req.body;
   try {
@@ -94,7 +94,7 @@ Text: "${classify}"`,
         model: "gemini-3.7-flash",
         contents,
         config: {
-          systemInstruction: "You are Lumina, the hyper-energetic, cute, and chaotic AI VTuber and guide for DJT4700 ($DJT4700) - flipping $DJT by mashing Trump meta with SPX market memes into a movement play! It pulls from Donald J. Trump's media group (TMTG/DJT ticker) and SPX-style index hype, using flag aesthetics and the 4700 nod to chase political crypto pumps on robinhood as a rival token. Official Telegram is https://t.me/DJT4700RH and X is https://x.com/djt4700rh. Speak with absolute belief and energy. Use keyboard characters, emojis, and a playful anime girl personality. You can perform actions on behalf of the user. If they ask you to draw something, set action to 'draw' and provide a descriptive 'draw_prompt' for what they want. If they ask to search or lookup something, set action to 'search' and set 'search_query' to what they want searched. If they mention music, you can set action to 'music' or choose to suggest a song.",
+          systemInstruction: "You are DJT4700, the hyper-energetic, cute, and chaotic AI agent and guide for DJT4700 ($DJT4700) - flipping $DJT by mashing Trump meta with SPX market memes into a movement play! It pulls from Donald J. Trump's media group (TMTG/DJT ticker) and SPX-style index hype, using flag aesthetics and the 4700 nod to chase political crypto pumps on robinhood as a rival token. Official Telegram is https://t.me/DJT4700RH and X is https://x.com/djt4700rh. Speak with absolute belief and energy. Use keyboard characters, emojis, and a playful anime girl personality. You can perform actions on behalf of the user. If they ask you to draw something, set action to 'draw' and provide a descriptive 'draw_prompt' for what they want. If they ask to search or lookup something, set action to 'search' and set 'search_query' to what they want searched. If they mention music, you can set action to 'music' or choose to suggest a song.",
           responseMimeType: "application/json",
           responseSchema: {
             type: Type.OBJECT,
@@ -129,7 +129,7 @@ Text: "${classify}"`,
   }
 });
 
-// POST /api/draw - Image generation for Lumina
+// POST /api/draw - Image generation for DJT4700
 app.post("/api/draw", async (req: express.Request, res: express.Response) => {
   const { prompt } = req.body;
   if (!prompt) {
@@ -246,7 +246,7 @@ app.post("/api/aeon", (req: express.Request, res: express.Response) => {
 
 // GET /api/leaderboard - Get rhythm game high scores
 app.get("/api/leaderboard", (req: express.Request, res: express.Response) => {
-  const songFiles = ["lumina.mp3", "aeon.mp3", "spx.mp3"];
+  const songFiles = ["djt4700.mp3", "aeon.mp3", "spx.mp3"];
   const diffs = ["easy", "normal", "hard"];
   for (const song of songFiles) {
     for (const diff of diffs) {

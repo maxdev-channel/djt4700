@@ -17928,15 +17928,8 @@ var $p = [{
     page: `/media`,
     accent: `magenta`
   }, {
-    id: `aeon`,
-    code: `SECTOR-05`,
-    label: `PROJECT DJT4700`,
-    sub: `OFFICIAL NFT GALLERY`,
-    page: `/aeon`,
-    accent: `cyan`
-  }, {
     id: `game`,
-    code: `SECTOR-06`,
+    code: `SECTOR-05`,
     label: `ARCADE`,
     sub: `SIGNAL SYNC GAMES`,
     page: `/arcade`,
@@ -21606,53 +21599,7 @@ var Mm = [`lime`, `magenta`, `cyan`],
       label: `ROBINHOOD WALLET`,
       sub: `ROBINHOOD`,
       href: `https://app.uniswap.org/swap?outputCurrency=0x40a6031d050901e71935cf77354b50866f411729`
-    }, {
-      label: `JUPITER`,
-      sub: `SOLANA`,
-      href: `https://jup.ag/swap?sell=So11111111111111111111111111111111111111112&buy=J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr`
     }]
-  }, {
-    label: `BRIDGE`,
-    sub: `CROSS-CHAIN`,
-    category: `BRIDGE`,
-    accent: `magenta`,
-    expandable: !0,
-    children: [{
-      label: `PORTAL BRIDGE`,
-      sub: `WORMHOLE`,
-      href: `https://portalbridge.com/?fromChain=Solana&fromToken=DJT4700&toChain=Ethereum&toToken=DJT4700`
-    }, {
-      label: `MAYAN`,
-      sub: `SWAP BRIDGE`,
-      href: `https://swap.mayan.finance/`
-    }]
-  }, {
-    label: `PROJECT DJT4700`,
-    sub: `3,333 DIVINE BEINGS`,
-    category: `NFT`,
-    accent: `cyan`,
-    expandable: !0,
-    children: [{
-      label: `BLUR`,
-      sub: `MARKETPLACE`,
-      href: `https://blur.io/collection/project-aeon`
-    }, {
-      label: `OPENSEA`,
-      sub: `MARKETPLACE`,
-      href: `https://opensea.io/collection/project-aeon`
-    }]
-  }, {
-    label: `DJT4700 INDUSTRIES`,
-    sub: `OFFICIAL MERCH`,
-    href: ``,
-    category: `MERCH`,
-    accent: `lime`
-  }, {
-    label: `TERMINAL`,
-    sub: `AEON TERMINAL`,
-    href: `/`,
-    category: `SOCIAL`,
-    accent: `magenta`
   }, {
     label: `TELEGRAM`,
     sub: `t.me/DJT4700RH`,
