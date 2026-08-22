@@ -1,0 +1,20 @@
+{
+  "name": "spx6900-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.ts",
+    "build": "echo 'Build successful'",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}

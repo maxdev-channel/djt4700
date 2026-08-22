@@ -1,0 +1,280 @@
+*,
+:before,
+:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+:root {
+    --spx-lime: #e5ff1a;
+    --spx-yellow: #ffe500;
+    --spx-magenta: #ff1a66;
+    --spx-cyan: #00e5ff;
+    --spx-black: #0a0a0a;
+    --spx-dark: #141414;
+    --spx-white: #fff;
+    --spx-paper: #f5f5f5;
+    --spx-gray: #aaa;
+    --font-display: "Orbitron", sans-serif;
+    --font-data: "Space Mono", monospace;
+    --font-stat: "Bebas Neue", sans-serif;
+    --font-body: "Inter", sans-serif;
+    --font-condensed: "Barlow Condensed", sans-serif
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%
+}
+
+body {
+    font-family: var(--font-body);
+    color: #0a0a0a;
+    -webkit-user-select: none;
+    user-select: none;
+    background: #f5f5f5;
+    overflow: hidden
+}
+
+input,
+textarea {
+    -webkit-user-select: text;
+    user-select: text
+}
+
+img {
+    -webkit-user-drag: none;
+    user-drag: none;
+    -webkit-user-select: none;
+    user-select: none
+}
+
+:root {
+    --c-lime: #e5ff1a;
+    --c-magenta: #ff1a66;
+    --c-cyan: #00e5ff;
+    --ui: 1;
+    --ink: #0a0a0a;
+    --ink-rgb: 10, 10, 10;
+    --paper: #f5f5f5;
+    --surface: #fff;
+    --surface-rgb: 255, 255, 255;
+    --shadow: #0a0a0a;
+    --shadow-mid: #3d3d3d;
+    --accent-ink: #0a0a0a
+}
+
+:root[data-theme=pastel] {
+    --c-lime: #efe770;
+    --c-magenta: #f4a6c8;
+    --c-cyan: #a4e5de
+}
+
+:root.theme-switching,
+:root.theme-switching *,
+:root.theme-switching :before,
+:root.theme-switching :after {
+    transition: none !important
+}
+
+body {
+    background: #f5f5f5;
+    overflow: hidden
+}
+
+.site-content-layer {
+    z-index: 1;
+    position: fixed;
+    inset: 0;
+    overflow: hidden
+}
+
+#menu-screen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    overflow: hidden
+}
+
+@media (width<=768px),
+(height<=500px) and (width<=932px) {
+    .site-content-layer {
+        height: 100svh;
+        height: var(--app-vh, 100svh);
+        bottom: auto
+    }
+}
+
+.mq {
+    white-space: nowrap;
+    max-width: 100%;
+    display: block;
+    overflow: hidden
+}
+
+.mq-track {
+    will-change: transform;
+    display: inline-flex
+}
+
+.mq-seg {
+    white-space: nowrap;
+    flex-shrink: 0
+}
+
+.mq-seg-dup {
+    padding-left: 44px
+}
+
+.mq.mq-on .mq-track {
+    animation: linear infinite mq-scroll
+}
+
+.mq.mq-on.mq-hover .mq-track {
+    animation-play-state: paused
+}
+
+@keyframes mq-scroll {
+    0% {
+        transform: translate(0)
+    }
+
+    to {
+        transform: translateX(var(--mq-shift))
+    }
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .mq.mq-on .mq-track {
+        animation: none
+    }
+}
+
+body.spx-overlay .mp-wrap,
+body.spx-overlay .status-panel,
+body.spx-overlay .cmt-wrap,
+body.spx-overlay .gm-vol {
+    opacity: .16;
+    pointer-events: none;
+    transition: opacity .25s
+}
+
+.mp-wrap,
+.status-panel,
+.cmt-wrap,
+.gm-vol {
+    transition: opacity .18s
+}
+
+/* Custom official banner for SPX6900 */
+.mm-banner-container {
+    width: min(100%, calc(var(--ui) * 440px));
+    align-self: flex-start;
+    margin-bottom: calc(var(--ui) * 12px);
+    z-index: 5;
+    background: #fff;
+    border: calc(var(--ui) * 3px) solid #0a0a0a;
+    box-shadow: calc(var(--ui) * 9px) calc(var(--ui) * 9px) 0 0 #0a0a0a;
+    padding: calc(var(--ui) * 6px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    transition: transform 0.2s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.2s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) {
+    .mm-banner-container:hover {
+        transform: translate(calc(var(--ui) * -2px), calc(var(--ui) * -2px));
+        box-shadow: calc(var(--ui) * 11px) calc(var(--ui) * 11px) 0 0 #0a0a0a;
+    }
+}
+
+.mm-banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Responsive Desktop Rules */
+@media (min-width: 769px) {
+    .mm-nav {
+        top: calc(50% + var(--ui) * 126px) !important;
+    }
+}
+
+/* Landscape/Tablet middle widths */
+@media (min-width: 769px) and (max-width: 1200px) {
+    .mm-banner-container {
+        width: min(100%, calc(var(--ui) * 360px));
+    }
+}
+
+/* Height-based scaling on desktop (laptops, split screen, smaller displays) */
+@media (min-width: 769px) and (max-height: 800px) {
+    .mm-nav {
+        gap: calc(var(--ui) * 12px) !important;
+        top: calc(50% + var(--ui) * 110px) !important;
+    }
+    .mm-item {
+        height: calc(var(--ui) * 96px) !important;
+        padding: 0 calc(var(--ui) * 20px) !important;
+        gap: calc(var(--ui) * 18px) !important;
+    }
+    .mm-banner-container {
+        width: min(100%, calc(var(--ui) * 380px)) !important;
+        margin-bottom: calc(var(--ui) * 8px) !important;
+    }
+}
+
+@media (min-width: 769px) and (max-height: 680px) {
+    .mm-nav {
+        gap: calc(var(--ui) * 8px) !important;
+        top: calc(50% + var(--ui) * 95px) !important;
+    }
+    .mm-item {
+        height: calc(var(--ui) * 80px) !important;
+        padding: 0 calc(var(--ui) * 16px) !important;
+        gap: calc(var(--ui) * 14px) !important;
+    }
+    .mm-banner-container {
+        width: min(100%, calc(var(--ui) * 320px)) !important;
+        margin-bottom: calc(var(--ui) * 6px) !important;
+    }
+}
+
+/* Mobile & Small Landscape viewports */
+@media (max-width: 768px), (max-height: 500px) and (max-width: 932px) {
+    .mm-banner-container {
+        width: 100%;
+        border-width: 2.5px;
+        box-shadow: 4px 4px 0 0 #0a0a0a;
+        padding: 4px;
+        margin: 0;
+    }
+}
+
+/* Ultra-small mobile devices (e.g. iPhone SE, 320px-360px) */
+@media (max-width: 360px) {
+    .mm-banner-container {
+        border-width: 2px;
+        box-shadow: 3px 3px 0 0 #0a0a0a;
+        padding: 3px;
+    }
+    .mm-item {
+        height: 48px !important;
+        padding: 0 10px !important;
+    }
+    .mm-item-label {
+        font-size: 12px !important;
+        letter-spacing: 1px !important;
+    }
+    .mm-logo {
+        height: 38px !important;
+    }
+}
+}

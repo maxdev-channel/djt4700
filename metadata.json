@@ -1,0 +1,8 @@
+{
+  "name": "DJT4700 Website",
+  "description": "The official-style DJT4700 interactive portal. Features Lumina the AI VTuber, Project Aeon terminal, drawing board, and stock flipping games.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
