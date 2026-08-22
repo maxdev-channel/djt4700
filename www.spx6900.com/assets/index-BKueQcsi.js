@@ -18025,7 +18025,7 @@ function tm() {
 
         .mm-bg {
           position: absolute; inset: 0;
-          background-image: url('https://www.spx6900.com/menu/background.webp');
+          background-image: url('/menu/background.webp');
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -18609,7 +18609,7 @@ function tm() {
           /* Swap to the portrait artwork on phones — the desktop wallpaper
              leaves a large empty middle in a tall narrow viewport, so use the
              phone-specific fill that keeps the background detail visible. */
-          .mm-bg { background-image: url('https://www.spx6900.com/menu/phone.webp'); }
+          .mm-bg { background-image: url('/menu/phone.webp'); }
           /* Constellation: same treatment as .mm-bg — fixed to the visible
              viewport (absolute % offsets would land it far down the tall
              scroll area) and pointer-events:none so a swipe over it still
@@ -19223,7 +19223,7 @@ function dm() {
       children: `
         .ab-bg {
           position: absolute; inset: 0;
-          background-image: url('https://www.spx6900.com/menu/Background-01.webp');
+          background-image: url('/menu/Background-01.webp');
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -19930,7 +19930,7 @@ function pm() {
       children: `
         .dc-bg {
           position: absolute; inset: 0;
-          background-image: url('https://www.spx6900.com/menu/Background-02.webp');
+          background-image: url('/menu/Background-02.webp');
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -20589,7 +20589,7 @@ function km() {
       children: `
         .ln-bg {
           position: absolute; inset: 0;
-          background-image: url('https://www.spx6900.com/menu/Background-03.webp');
+          background-image: url('/menu/Background-03.webp');
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -21529,13 +21529,13 @@ function jm({
     children: r ? (0, Q.jsxs)(Q.Fragment, {
       children: [(0, Q.jsx)(`img`, {
         className: `ln-portrait-shadow-inner`,
-        src: `https://www.spx6900.com/lumina-chat/${a}.webp`,
+        src: `/lumina-chat/${a}.webp`,
         alt: ``,
         "aria-hidden": `true`,
         style: c
       }), (0, Q.jsx)(`img`, {
         className: `ln-portrait-img`,
-        src: `https://www.spx6900.com/lumina-chat/${a}.webp`,
+        src: `/lumina-chat/${a}.webp`,
         alt: `Agent DJT4700 ${a}`,
         onError: () => i(!1),
         style: s
@@ -21692,7 +21692,7 @@ function Pm() {
       children: `
         .lk-bg {
           position: absolute; inset: 0;
-          background-image: url('https://www.spx6900.com/menu/Background-04.webp');
+          background-image: url('/menu/Background-04.webp');
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -22544,7 +22544,7 @@ function $m() {
       children: `
         .md-bg {
           position: absolute; inset: 0;
-          background-image: url('https://www.spx6900.com/menu/Background-05.webp');
+          background-image: url('/menu/Background-05.webp');
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -23733,7 +23733,7 @@ function rh() {
       children: `
         .an-bg {
           position: absolute; inset: 0;
-          background-image: url('https://www.spx6900.com/menu/Background-06.webp');
+          background-image: url('/menu/Background-06.webp');
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -24929,7 +24929,7 @@ function Fh() {
       tw: t() * Math.PI * 2
     }))
   }, []), (0, w.useEffect)(() => {
-    fetch(`https://www.spx6900.com/music/tracks.json`).then(e => e.ok ? e.json() : null).then(e => {
+    fetch(`/music/tracks.json`).then(e => e.ok ? e.json() : null).then(e => {
       Array.isArray(e) && e.length && c(e.filter(e => Eh.has(e.file)).map(e => ({
         title: e.title || e.file || `UNTITLED`,
         artist: e.artist || ``,
@@ -25449,7 +25449,7 @@ function Fh() {
       children: `
         .gm-bg {
           position: absolute; inset: 0;
-          background-image: url('https://www.spx6900.com/menu/Background-07.webp');
+          background-image: url('/menu/Background-07.webp');
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -25798,7 +25798,7 @@ function Fh() {
           width: var(--box); height: var(--box);
           border: 3px solid var(--ink);
           box-shadow: calc(var(--ui)*10px) calc(var(--ui)*10px) 0 0 var(--c-magenta);
-          background-image: url('https://www.spx6900.com/menu/game_box_background.webp');
+          background-image: url('/menu/game_box_background.webp');
           /* Slightly larger than the box so the parallax-shifted background
              never exposes an empty edge. The frame translates each frame
              (parallax) but the background-position is counter-shifted in JS
@@ -28750,7 +28750,7 @@ function lg() {
       children: `
         .ar-bg {
           position: absolute; inset: 0;
-          background-image: url('https://www.spx6900.com/menu/Background-07.webp');
+          background-image: url('/menu/Background-07.webp');
           background-size: cover; background-position: center;
           background-repeat: no-repeat;
         }
@@ -29344,7 +29344,7 @@ function Eg() {
 }
 async function Dg() {
   if (!(Cg || !yg)) try {
-    let e = await fetch(`https://www.spx6900.com/sfx/pulse.mp3`);
+    let e = await fetch(`/sfx/pulse.mp3`);
     if (!e.ok) return;
     Cg = await yg.decodeAudioData(await e.arrayBuffer())
   } catch {}
@@ -29519,7 +29519,7 @@ function Ng() {
         .nf-bg {
           position: absolute; inset: 0;
           background-color: var(--paper);
-          background-image: url('https://www.spx6900.com/menu/background-error.webp');
+          background-image: url('/menu/background-error.webp');
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -30375,23 +30375,23 @@ var Wg = `https://pub-36a20dd261d0453e97ab9f45df252980.r2.dev`.replace(/\/?$/, `
   Gg = [{
     title: `PROXY SIGNAL`,
     artist: `DJT4700`,
-    src: `https://www.spx6900.com/music/track-1.mp3`
+    src: `/music/track-1.mp3`
   }, {
     title: `AUTOHEAL LATTICE`,
     artist: `DJT4700`,
-    src: `https://www.spx6900.com/music/track-2.mp3`
+    src: `/music/track-2.mp3`
   }, {
     title: `6900 ASCENSION`,
     artist: `DJT4700`,
-    src: `https://www.spx6900.com/music/track-3.mp3`
+    src: `/music/track-3.mp3`
   }, {
     title: `DJT4700 FLIPS`,
     artist: `DJT4700`,
-    src: `https://www.spx6900.com/music/track-4.mp3`
+    src: `/music/track-4.mp3`
   }, {
     title: `DJT4700 GLOW`,
     artist: `DJT4700`,
-    src: `https://www.spx6900.com/music/track-5.mp3`
+    src: `/music/track-5.mp3`
   }],
   Kg = () => typeof window > `u` ? !1 : window.matchMedia && window.matchMedia(`(pointer: coarse)`).matches ? !0 : (navigator.maxTouchPoints || 0) > 0 || `ontouchstart` in window;
 
@@ -30438,7 +30438,7 @@ function qg() {
       src: ``
     };
   (0, w.useEffect)(() => {
-    fetch(`https://www.spx6900.com/music/tracks.json`).then(e => e.ok ? e.json() : null).then(e => {
+    fetch(`/music/tracks.json`).then(e => e.ok ? e.json() : null).then(e => {
       Array.isArray(e) && e.length && (n(e.map(e => ({
         title: e.title || e.file || `UNTITLED`,
         artist: e.artist || ``,
@@ -31330,11 +31330,11 @@ function n_() {
     let t = await (await fetch(e)).arrayBuffer();
     return await Qg.decodeAudioData(t)
   };
-  t(`https://www.spx6900.com/sound%20effect/navigate.mp3`).then(e => {
+  t(`/sound%20effect/navigate.mp3`).then(e => {
     $g = e
-  }).catch(() => {}), t(`https://www.spx6900.com/sound%20effect/select.mp3`).then(e => {
+  }).catch(() => {}), t(`/sound%20effect/select.mp3`).then(e => {
     e_ = e
-  }).catch(() => {}), t(`https://www.spx6900.com/sound%20effect/back.mp3`).then(e => {
+  }).catch(() => {}), t(`/sound%20effect/back.mp3`).then(e => {
     t_ = e
   }).catch(() => {})
 }
