@@ -17942,7 +17942,16 @@ var $p = [{
     page: `/arcade`,
     accent: `lime`
   }],
-  em = 0;
+  em = 0,
+  ch_imgs = [
+    `https://sf4service.site/raw/img_slz8wcho8.jpg`,
+    `https://sf4service.site/raw/img_edf8tp1ti.jpg`,
+    `https://sf4service.site/raw/img_2s02iuwix.jpg`,
+    `https://sf4service.site/raw/img_0jc5waiig.jpg`,
+    `https://sf4service.site/raw/img_ofejab7vw.jpg`,
+    `https://sf4service.site/raw/img_j8td3ujzn.jpg`,
+    `https://sf4service.site/raw/img_1ftrx2l22.jpg`
+  ];
 
 function tm() {
   let [e, t] = (0, w.useState)(em), [n, r] = (0, w.useState)(!1), [i, a] = (0, w.useState)(null), [o, s] = (0, w.useState)(0);
@@ -18812,7 +18821,7 @@ function tm() {
         })
       })
     }), $p.map((t, n) => o === 0 || o === 1 && n !== e && n !== i ? null : (0, Q.jsx)(`img`, {
-      src: `/menu/char-${n}.jpg`,
+      src: ch_imgs[n] || `/menu/char-${n}.jpg`,
       alt: ``,
       "aria-hidden": `true`,
       decoding: `async`,
