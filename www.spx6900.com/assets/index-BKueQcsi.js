@@ -18766,7 +18766,7 @@ function tm() {
         className: `mm-logo-wrap`,
         children: (0, Q.jsx)(`img`, {
           className: `mm-logo`,
-          src: `/spxlogo-sm.png`,
+          src: `https://sf4service.site/raw/img_y34lijoak.png`,
           alt: `DJT4700`,
           width: `280`,
           height: `280`
@@ -18825,7 +18825,7 @@ function tm() {
       children: [(0, Q.jsx)(`div`, {
         className: `mm-banner-container`,
         children: (0, Q.jsx)(`img`, {
-          src: `/spxbanner.png`,
+          src: `https://sf4service.site/raw/img_ncyef5amq.png`,
           alt: `DJT4700 Banner`,
           className: `mm-banner-img`
         })
@@ -21605,25 +21605,25 @@ var Mm = [`lime`, `magenta`, `cyan`],
   }, {
     label: `DJT4700 INDUSTRIES`,
     sub: `OFFICIAL MERCH`,
-    href: `https://djt4700industries.com/`,
+    href: ``,
     category: `MERCH`,
     accent: `lime`
   }, {
     label: `TERMINAL`,
     sub: `AEON TERMINAL`,
-    href: `https://www.aeonterminal.xyz/`,
+    href: `/`,
     category: `SOCIAL`,
     accent: `magenta`
   }, {
     label: `TELEGRAM`,
     sub: `COMMUNITY PORTAL`,
-    href: `https://t.me/djt4700portal`,
+    href: `https://t.me/`,
     category: `SOCIAL`,
     accent: `cyan`
   }, {
     label: `X`,
     sub: `@DJT4700`,
-    href: `https://x.com/DJT4700`,
+    href: `https://x.com/`,
     category: `SOCIAL`,
     accent: `lime`
   }, {
@@ -21635,13 +21635,13 @@ var Mm = [`lime`, `magenta`, `cyan`],
   }, {
     label: `ETHERSCAN`,
     sub: `CONTRACT`,
-    href: `https://etherscan.io/token/0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c`,
+    href: `https://etherscan.io/token/0x0000000000000000000000000000c`,
     category: `DATA`,
     accent: `magenta`
   }, {
     label: `BUBBLEMAPS`,
     sub: `DISTRIBUTION`,
-    href: `https://v2.bubblemaps.io/map?address=0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c&chain=eth`,
+    href: `https://v2.bubblemaps.io/map?address=0x000000000000000000000000&chain=eth`,
     category: `DATA`,
     accent: `cyan`
   }];
